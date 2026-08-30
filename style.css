@@ -49,6 +49,10 @@ button {
   margin: 30px;
 }
 
+button:disabled {
+    background-color: #5A9994;
+}
+
 img {
   height: 80px;
   width: 220px;
