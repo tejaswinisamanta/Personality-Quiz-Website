@@ -44,6 +44,8 @@ var q9a3 = document.getElementById("q9a3");
 
 
 q1a1.addEventListener("click", introvert);
+q1a1.addEventListener("click", disablebtn);
+
 q1a2.addEventListener("click", ambivert);
 q1a3.addEventListener("click", extrovert);
 
@@ -78,6 +80,13 @@ q8a3.addEventListener("click", extrovert);
 q9a1.addEventListener("click", introvert);
 q9a2.addEventListener("click", ambivert);
 q9a3.addEventListener("click", extrovert);
+
+
+function disablebtn(event) {
+    q1a1.disabled = true;
+    q1a2.disabled = true;
+    q1a3.disabled = true;
+}
 
 
 var show = document.getElementById("show");
