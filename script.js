@@ -42,49 +42,150 @@ var q9a1 = document.getElementById("q9a1");
 var q9a2 = document.getElementById("q9a2");
 var q9a3 = document.getElementById("q9a3");
 
-function disablebtn(event) {
+function disablebtn1(event) {
     q1a1.disabled = true;
     q1a2.disabled = true;
     q1a3.disabled = true;
 }
 
+function disablebtn2(event) {
+    q2a1.disabled = true;
+    q2a2.disabled = true;
+    q2a3.disabled = true;
+}
+
+function disablebtn3(event) {
+    q3a1.disabled = true;
+    q3a2.disabled = true;
+    q3a3.disabled = true;
+}
+
+function disablebtn4(event) {
+    q4a1.disabled = true;
+    q4a2.disabled = true;
+    q4a3.disabled = true;
+}
+
+function disablebtn5(event) {
+    q5a1.disabled = true;
+    q5a2.disabled = true;
+    q5a3.disabled = true;
+}
+
+function disablebtn6(event) {
+    q6a1.disabled = true;
+    q6a2.disabled = true;
+    q6a3.disabled = true;
+}
+
+function disablebtn7(event) {
+    q7a1.disabled = true;
+    q7a2.disabled = true;
+    q7a3.disabled = true;
+}
+
+function disablebtn8(event) {
+    q8a1.disabled = true;
+    q8a2.disabled = true;
+    q8a3.disabled = true;
+}
+
+function disablebtn9(event) {
+    q9a1.disabled = true;
+    q9a2.disabled = true;
+    q9a3.disabled = true;
+}
+
+
 q1a1.addEventListener("click", introvert);
-q1a1.addEventListener("click", disablebtn);
+q1a1.addEventListener("click", disablebtn1);
 
 q1a2.addEventListener("click", ambivert);
+q1a2.addEventListener("click", disablebtn1);
+
 q1a3.addEventListener("click", extrovert);
+q1a3.addEventListener("click", disablebtn1);
+
 
 q2a1.addEventListener("click", introvert);
+q2a1.addEventListener("click", disablebtn2);
+
 q2a2.addEventListener("click", ambivert);
+q2a2.addEventListener("click", disablebtn2);
+
 q2a3.addEventListener("click", extrovert);
+q2a3.addEventListener("click", disablebtn2);
+
 
 q3a1.addEventListener("click", introvert);
+q3a1.addEventListener("click", disablebtn3);
+
 q3a2.addEventListener("click", ambivert);
+q3a2.addEventListener("click", disablebtn3);
+
 q3a3.addEventListener("click", extrovert);
+q3a3.addEventListener("click", disablebtn3);
+
 
 q4a1.addEventListener("click", introvert);
+q4a1.addEventListener("click", disablebtn4);
+
 q4a2.addEventListener("click", ambivert);
+q4a2.addEventListener("click", disablebtn4);
+
 q4a3.addEventListener("click", extrovert);
+q4a3.addEventListener("click", disablebtn4);
+
 
 q5a1.addEventListener("click", introvert);
+q5a1.addEventListener("click", disablebtn5);
+
 q5a2.addEventListener("click", ambivert);
+q5a2.addEventListener("click", disablebtn5);
+
 q5a3.addEventListener("click", extrovert);
+q5a3.addEventListener("click", disablebtn5);
+
 
 q6a1.addEventListener("click", introvert);
+q6a1.addEventListener("click", disablebtn6);
+
 q6a2.addEventListener("click", ambivert);
+q6a2.addEventListener("click", disablebtn6);
+
 q6a3.addEventListener("click", extrovert);
+q6a3.addEventListener("click", disablebtn6);
+
 
 q7a1.addEventListener("click", introvert);
+q7a1.addEventListener("click", disablebtn7);
+
 q7a2.addEventListener("click", ambivert);
+q7a2.addEventListener("click", disablebtn7);
+
 q7a3.addEventListener("click", extrovert);
+q7a3.addEventListener("click", disablebtn7);
+
 
 q8a1.addEventListener("click", introvert);
+q8a1.addEventListener("click", disablebtn8);
+
 q8a2.addEventListener("click", ambivert);
+q8a2.addEventListener("click", disablebtn8);
+
 q8a3.addEventListener("click", extrovert);
+q8a3.addEventListener("click", disablebtn8);
+
 
 q9a1.addEventListener("click", introvert);
+q9a1.addEventListener("click", disablebtn9);
+
 q9a2.addEventListener("click", ambivert);
+q9a2.addEventListener("click", disablebtn9);
+
 q9a3.addEventListener("click", extrovert);
+q9a3.addEventListener("click", disablebtn9);
+
 
 
 
